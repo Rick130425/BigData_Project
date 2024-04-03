@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 
+st.set_page_config(layout="wide")
+
 
 @st.cache_data
 def get_pandas_dataset():
@@ -8,3 +10,6 @@ def get_pandas_dataset():
     return data_frame
 
 
+"""
+# Análisis de las tarifas de transporte de gas natural 
+"""
